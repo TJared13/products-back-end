@@ -1,7 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const massive = require('massive');
-const products_controller = require('./products_controller');
+const products_controller = require('./controllers/products_controller');
 const app = express();
 const {SERVER_PORT, CONNECTION_STRING} = process.env;
 
